@@ -1,4 +1,4 @@
-provider "aws" {
-  region = var.default_region
-}
+# provider "aws" {
+#   region = var.default_region
+# }
 
