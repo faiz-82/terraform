@@ -1,10 +1,8 @@
 default_region  = "us-west-1"
-us_east_1 = "us-east-1"
+us_east_1_region = "us-east-1"
 us_east_2_region = "us-east-2"
 
 instance_type = "t3.micro"
-
-ami_id = "ami-0ecb62995f68bb549"
 
 ami_ids = {
   us-east-1 = "ami-0ecb62995f68bb549"
