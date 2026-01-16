@@ -13,7 +13,6 @@ variable "ami_id" {
   type        = string
 }
 
-
 variable "tags" {
   description = "Common tags for all resources"
   type        = map(string)
