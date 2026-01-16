@@ -1,15 +1,5 @@
-variable "default_region" {
+variable "us_east_1" {
   description = "Default AWS region"
-  type        = string
-}
-
-variable "us_east_1_region" {
-  description = "AWS us-east-1 region"
-  type        = string
-}
-
-variable "us_east_2_region" {
-  description = "AWS us-east-2 region"
   type        = string
 }
 
@@ -18,9 +8,9 @@ variable "instance_type" {
   type        = string
 }
 
-variable "ami_ids" {
+variable "ami_id" {
   description = "AMI IDs per AWS region"
-  type        = map(string)
+  type        = string
 }
 
 
