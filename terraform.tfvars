@@ -1,6 +1,4 @@
 default_region  = "us-east-1"
-us_east_1_region = "us-east-1"
-us_east_2_region = "us-east-2"
 
 instance_type = "t3.micro"
 
