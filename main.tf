@@ -5,3 +5,5 @@ resource "aws_instance" "example1" {
   instance_type = var.instance_type
 
   tags = { Name = var.tag }
+
+}
