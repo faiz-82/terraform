@@ -18,12 +18,12 @@ variable "tags" {
   type        = map(string)
 }
 
-variable "aws_access_key" {
+variable "AWS_ACCESS_KEY_ID" {
   description = "AWS Access Key"
   type        = string
 }
 
-variable "aws_secret_key" {
+variable "AWS_SECRET_ACCESS_KEY" {
   description = "AWS Secret Key"
   type        = string
 }
